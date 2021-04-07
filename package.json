@@ -1,0 +1,9 @@
+{
+  "name": "ccc_3_protobuf_sample",
+  "type": "3d",
+  "uuid": "c30b28da-749e-479b-bcb6-cecd8d7be9e3",
+  "version": "3.0.0",
+  "dependencies": {
+    "protobufjs": "^6.10.2"
+  }
+}

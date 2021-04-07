@@ -1,0 +1,22 @@
+syntax = "proto3";
+option go_package = "ti-ding.com/sudoku_server/sudoku_server/proto/response";
+package response;
+
+
+message UserInfo {
+  string cellphone = 1;
+  string nick_name = 2;
+  int64 credits = 3;
+  int64 age = 4;
+  int64 gender = 5;
+  int64 id = 6;
+  bool has_password = 9;
+}
+
+message MyBattleChallengeConf {
+  bool allow_battle_challenge = 1;
+}
+
+message AutoVerifyLogin {
+  UserInfo user_info = 1;
+}
